@@ -10,7 +10,8 @@
         <script src="resources/jquery-3.7.1.js"></script>
         <script>$(document).ready(function(){
             $('input[type="button"]').click(function(){
-                $('#' + $(this).val() + 'light').css("background-color", $(this).val());
+                $( ".light" ).css( "background-color", "" );
+                $('#' + $(this).val() + 'Light').css("background-color", $(this).val());
             });
         });</script>
 	</head>
