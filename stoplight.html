@@ -13,7 +13,13 @@
                 $( ".light" ).css( "background-color", "" );
                 $('#' + $(this).val() + 'Light').css("background-color", $(this).val());
             });
-        });</script>
+        });
+		
+		$(".light").mouseover(function(){
+			$( ".light" ).css( "background-color", " " );
+		});
+		</script>
+
 	</head>
 	<body>
 		<div id="wrapper">
